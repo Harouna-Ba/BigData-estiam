@@ -14,7 +14,7 @@ producer = KafkaProducer(
 )
 
 while True:
-    API_KEY = 'xxxxxx'
+    API_KEY = '2db87913cb0a4b27a9a160454242811'
     CITY = "Paris"
     url = f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={CITY}&aqi=no"
     try:
